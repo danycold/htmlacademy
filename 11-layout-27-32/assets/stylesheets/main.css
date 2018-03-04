@@ -1,0 +1,117 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 450px;
+  height: 335px;
+  font-family: "Arial", sans-serif;
+  font-size: 10px;
+  color: white;
+}
+
+/*
+  Используемые цвета:
+  #34495e – мокрый асфальт
+  #c0392b – красный
+  #3498DB – синий
+*/
+
+.wrapper {
+  width: 350px;
+  margin: 0 auto;
+}
+
+.clearfix::after {
+  display: table;
+  content: "";
+  clear: both;
+}
+
+.primary-header {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  color: white;
+  background: #34495e;
+}
+
+.primary-header .header {
+  padding: 5px;
+  min-height: 25px;
+  width: 340px;
+  margin-bottom: 10px;
+  color: white;
+  background: rgba(192, 57, 43, 0.9);
+}
+
+.primary-header .menu {
+  padding: 5px;
+  padding-left: 55px;
+  padding-right: 55px;
+  min-height: 25px;
+  width: auto;
+  background: #3498DB;
+  margin-bottom: 10px;
+}
+
+.promo {
+  min-height: 50px;
+}
+
+.promo-column-1 {
+  padding: 5px;
+  min-height: 50px;
+  float: left;
+  width: 160px;
+  background: rgba(192, 57, 43, 0.9);
+}
+
+.promo-column-2 {
+  padding: 5px;
+  min-height: 50px;
+  float: right;
+  width: 160px;
+  background: rgba(192, 57, 43, 0.9);
+}
+
+.content {
+  margin-bottom: 10px;
+  min-height: 100px;
+}
+
+.content .content-left {
+  padding: 5px;
+  float: left;
+  min-height: 100px;
+  width: 60px;
+  margin-right: 10px;
+  background: #3498DB;
+}
+
+.content .content-main {
+  padding: 5px;
+  float: left;
+  min-height: 100px;
+  width: 180px;
+  background: #3498DB;
+}
+
+.content .content-right {
+  padding: 5px;
+  float: right;
+  min-height: 100px;
+  width: 60px;
+  background: #3498DB;
+}
+
+footer {
+  padding: 5px;
+  padding-left: 55px;
+  padding-right: 55px;
+  min-height: 25px;
+  color: white;
+  background: #34495e;
+}

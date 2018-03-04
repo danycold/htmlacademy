@@ -1,0 +1,58 @@
+<!--
+Испытание: строим сетку [27/32]
+
+В этом испытании задача очень простая:
+Нужно построить схематичную сетку макета, как в образце. Вы можете писать любой HTML и любой CSS, без каких либо ограничений.
+
+Единственная тонкость — учитывайте общую ширину макета, которая задана в body. Это сделано, чтобы упростить проверку. И не забывайте пользоваться новыми инструментами для сравнения результата и образца.
+Как обычно, все размеры и отступы кратны 5, а используемые цвета перечислены в комментарии в CSS.
+-->
+
+<!DOCTYPE html>
+<html lang="ru">
+  
+  <head>
+    <title>Испытание: строим сетку</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="assets/stylesheets/main.css">
+  </head>
+  
+  <body>
+  
+    <header class="primary-header">
+      <div class="wrapper header">
+        Header
+      </div>
+      <div class="wrapper menu">
+        Menu
+      </div>
+      <div class="wrapper promo clearfix">
+        <div class="promo-column-1">
+          Promo 1
+        </div>
+        <div class="promo-column-2">
+          Promo 2
+        </div>
+      </div>
+    </header>
+
+    <section>
+      <div class="wrapper content clearfix">
+        <div class="content-left">
+          Left
+        </div>
+        <div class="content-main">
+          Main
+        </div>
+        <div class="content-right">
+          Right
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      Footer
+    </footer>
+    
+  </body>
+</html>
