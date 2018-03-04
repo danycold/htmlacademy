@@ -89,10 +89,10 @@ header {
 
 .content .content-left {
   padding: 5px;
-  float: left;
   min-height: 100px;
   width: 60px;
   margin-right: 10px;
+  float: left;
   background: #3498DB;
 }
 
