@@ -82,8 +82,11 @@ header {
   background: rgba(192, 57, 43, 0.9);
 }
 
-.content {
+section {
   margin-bottom: 10px;
+}
+
+.content {
   min-height: 100px;
 }
 
