@@ -5,8 +5,8 @@ body {
 }
 
 body {
-/* width: 450px; */
-/*  height: 335px; */
+/*  width: 450px;
+  height: 335px; */
   font-family: "Arial", sans-serif;
   font-size: 10px;
   color: white;
@@ -51,7 +51,7 @@ header {
   margin: 0 auto 10px auto;
   width: 340px;
   color: white;
-  background: rgba(192, 57, 43, 0.9);
+  background: #c0392b;
 }
 
 .menu {
@@ -71,7 +71,7 @@ header {
   min-height: 50px;
   float: left;
   width: 160px;
-  background: rgba(192, 57, 43, 0.9);
+  background: #c0392b;
 }
 
 .promo-column-2 {
@@ -79,7 +79,7 @@ header {
   min-height: 50px;
   float: right;
   width: 160px;
-  background: rgba(192, 57, 43, 0.9);
+  background: #c0392b;
 }
 
 section {
