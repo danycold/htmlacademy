@@ -1,0 +1,65 @@
+<!--
+Испытание: редактирование профиля [18/18]
+
+Создайте более сложную форму редактирования профиля.
+Подсказки:
+- Вам нужно размечать только HTML-код.
+- Для переноса полей на новую строку используйте обычный `<br>`.
+- Поля формы по умолчанию располагаются на одной строке, если помещаются по ширине.
+
+Так как поля форм могут очень сильно отличаться от операционной системы, то ориентируйтесь по вкладкам «Образец» и «Различия», где показано как наш сервер видит вашу форму.
+-->
+
+<!DOCTYPE html>
+<html lang="ru">
+  
+  <head>
+    <title>Испытание: итоговая таблица [23/23]</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="main.css">
+  </head>
+  
+  <body>
+    <h1>Профиль</h1>
+
+        <form action="https://echo.htmlacademy.ru" method="post">
+            <label>
+              Ваш пол:
+              <input type=radio name=gender value=Мужской>Мужской
+            </label>
+            <label>
+              <input type=radio checked name=gender value=Женский>Женский
+            </label>
+            <br>
+            <label>
+              Месяц и год рождения:
+              <br>
+              <select name=month>
+                <option value="Январь">Январь
+                </option>
+              </select>
+              <select name=year>
+                <option value="1990">1990
+                </option>
+              </select>
+            </label>
+            <br>
+            <label>
+              Знакомые технологии:
+              <br>
+              <select name=tech muliple size=4>
+                <option>HTML</option>
+                <option selected>CSS</option>
+                <option>JavaScript</option>
+                <option>Node.js</option>
+              </select>
+            </label>
+            <br>
+            <label>
+              Фото:
+              <input type=file name=photo>
+            </label>
+            <input type="submit" value="Сохранить">
+        </form>
+  </body>
+</html>
