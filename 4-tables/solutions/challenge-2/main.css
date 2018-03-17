@@ -1,0 +1,58 @@
+body {
+    width: 350px;
+    margin: 0;
+    padding: 0 10px;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+}
+
+table {
+    width: 100%;
+    height: auto;
+    border-collapse: collapse;
+
+}
+
+th {
+    padding: 10px;
+    border: 1px solid black;
+    color: white;
+    background-color: darkcyan;
+}
+
+td {
+    padding: 10px;
+    border-bottom: 1px solid lightgrey;
+    width: 33%;
+}
+
+.column-1 {
+    text-align: left;
+}
+
+.column-2 {
+    text-align: center;
+}
+
+.column-3 {
+    text-align: right;
+}
+
+.row-1 {
+}
+
+.row-2 {
+    background-color: lightyellow;
+}
+
+.row-3 {
+}
+
+.row-4 {
+    background-color: lightyellow;
+}
+
+.blue {
+    background-color: lightblue;
+    text-align: center;
+}
