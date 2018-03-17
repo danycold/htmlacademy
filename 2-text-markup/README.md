@@ -4,4 +4,4 @@
 
 <a href="text-markup.md">Solution in markdown</a>
 
-<a href="https://htmlacademy.ru/courses/38">Original course on htmlacademy.org</a>
+<a href="https://htmlacademy.ru/courses/38">Original course on htmlacademy.ru</a>
